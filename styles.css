@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital@1&family=Inter&family=Josefin+Sans&family=Roboto+Condensed:ital@1&display=swap');
+:root{
+    --branco-principal:#FFFFFF;
+    --cinza-secundario:#C0C0C0;
+    --botao-azul:#167BF7;
+    --cor-de-fundo:#00030C;
+}
+body{
+    background-color: var(--cor-de-fundo);
+    color:var(--branco-principal);
+    font-family: 'Inter', sans-serif;
+    
+    
+}
+.principal{
+    background-image: url("asserts/Background.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    align-items: center;
+    text-align: center;
+}
+*{
+    padding: 0%;
+    margin: 0%;
+
+}
+.container{
+    height:80vh;
+    display:grid;
+    grid-template-columns: 50% 50%;
+
+}
+.container___{
+    background-color: var(--botao-azul);
+    border-radius: 5px;
+    padding: 1em;
+    display:block;
+    color:var(--branco-principal);
+    text-decoration: none;
+    margin-bottom: 1em;
+    
+}
+.container__{
+    background-color: transparent;
+    border:solid 2px var(--branco-principal);
+}
+.container__titulo{
+    font-size: 28px;
+    font-weight: 700;
+
+}
+.container__img{
+    margin: 1em 0 2em 0;
+    
+
+}
+.container__caixa{
+    margin:0 6em;
+    
+}
+.img__sec{
+    width: 80%;
+}
+.sec{
+    display: grid;
+    align-items: center;
+    margin:0 10em;
+}
+.des__tit{
+    font-weight: 700;
+    font-size: 48px;
+    color:var(--branco-principal);
+    margin-bottom: 0.1em;
+}
+.sec_botao{
+    display:inline-block ;
+    margin-top:1em;
+
+}
+.dispositivos_lista{
+    display:flex;
+    justify-content: center;
+    list-style-type: none;
+    margin:5em 0;
+    
+}
+.dispositivos{
+    text-align: center;
+}
+.dispositivos_titulo{
+    font-size: 48px;
+    color:var(--branco-principal);
+}
+.rodape{
+    text-align:center;
+}
+.rodape_list{
+    display:flex;
+    justify-content: center;
+    margin: 2em 5em;
+    list-style-type: none;
+}
+.lista_link{
+    text-decoration: none;
+    color:var(--branco-principal);
+}
+.lista_testo{
+    text-decoration: none;
+    color:var(--branco-principal);
+    margin-left: 3%;
+    margin-top: 2%;
+    font-size: 14px;
+}
+.lista_link a:active{
+    color:purple;
+}
+.container__ a:hover{
+    color:purple;
+}
